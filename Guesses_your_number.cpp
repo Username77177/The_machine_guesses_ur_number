@@ -256,11 +256,11 @@ int settings(int* a,int* b) // Функция для изменения стандартных значений, (а,b)
 												SetColor(7,0);
 												std::cin >> change_two;  // Сохранить значения?
 												
-												if (change_two == "Y" || change_two == "y" || change_two == "Yes" || change_two == "yes") // Соглашается
+												if (change_two == "Y" || change_two == "y" || change_two == "Yes" || change_two == "yes") // Соглашается на сохранение
 													{
 														return *a,*b;  // Значения сохраняются и передаются в основное тело программы
 													}
-												else if (change_two == "N" || change_two == "n" || change_two == "No" || change_two == "no") // Не соглашается
+												else if (change_two == "N" || change_two == "n" || change_two == "No" || change_two == "no") // Не соглашается на сохранение 
 													{
 														*a = 1;  // Переменные принимают дефолтные значения
 														*b = 100; // 
