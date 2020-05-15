@@ -1,21 +1,19 @@
-"#The Machine guesses your number" 
+# The Machine guesses your number
 
-What is it?
------------
+[What is it?](## What is it?)
+
+[Documentation](##Documentation)
+
+
+
+## What is it?
+
 Это программа-игра. 
 Её суть очень проста: Вы загадываете число, а компьютер пытается его угадать.
 
-Documentation
--------------
+## Documentation
+
 Все правила находятся непосредственно в самой программе.
 Вам предоставлятся возможность измененить диапазон значений.
 
-Contacts
---------
-o Если у Вас есть какие-либо вопросы - 
-   пишите на адрес электронной почты: technicalevangelisteu@gmail.com/
-   с пометкой "Вопрос"/"Question"
- 
-o Если у Вас есть конкретный отчет об ошибке, пожалуйста, 
-   напишете на адрес электронной почты: technicalevangelisteu@gmail.com/
-   с пометкой "Ошибка"/"Error"
+
