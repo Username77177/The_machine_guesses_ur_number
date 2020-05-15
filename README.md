@@ -1,6 +1,6 @@
 # The Machine guesses your number
 
-[What is it?](## What is it?)
+[What is it?](##What is it?)
 
 [Documentation](##Documentation)
 
@@ -16,4 +16,6 @@
 Все правила находятся непосредственно в самой программе.
 Вам предоставлятся возможность измененить диапазон значений.
 
+## Branches
 
+В данном репозитории присутствует ветка для Linux-систем.
