@@ -265,18 +265,7 @@ int settings(int* a,int* b) // Функция для изменения стан
 														*a = 1;  // Переменные принимают дефолтные значения
 														*b = 100; // 
 														system("cls");
-														logo();
-														settings_logo();
-														std::cout << "> OK\n> Default: from number ";
-														SetColor(10,0);
-														std::cout << "1";
-														SetColor(3,0);
-														std::cout << " to number ";
-														SetColor(10,0);
-														std::cout << "100\n";
-														SetColor(3,0);
-														std::cout << "> Wait a second\n";
-														return *a,*b; // И передаются обратно в тело
+														break;
 													}
 												else   //  Миссклики и тд.
 													{
@@ -285,7 +274,8 @@ int settings(int* a,int* b) // Функция для изменения стан
 														continue;
 													}
 											}
-								}		
+								}
+								break;
 						}
 				}
 			else if (change == "N" || change == "n" || change == "No" || change == "no") // Если не решит заменять
